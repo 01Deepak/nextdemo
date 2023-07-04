@@ -12,6 +12,9 @@ const Navbar = () => {
         <li className={styles.navItem}><Link href='/dashboard'>Dashboard</Link></li>
         <li className={styles.navItem}><Link href='/blogs'>Blogs</Link></li>
         <li className={styles.navItem}><Link href='/'>Login</Link></li>
+        <li className={styles.navItem}><Link href='/users'>Users</Link></li>
+        <li className={styles.navItem}><Link href='/counter'>Counter</Link></li>
+
       </ul>
     </div>
   )
